@@ -66,3 +66,6 @@ g++ -I /d/Code/boost_1_79_0/ -L /d/Code/boost_1_79_0/lib64-msvc-14.2/boost_threa
 g++ -I /d/Code/boost_1_79_0/ -L /d/Code/boost_1_79_0/lib64-msvc-14.2/boost_thread-vc142-mt-gd-x64-1_79.lib -Wall -Werror -fcoroutines -std=c++20 echo_server_coroutine.cpp -o coroutine;
 ```
 
+```
+sudo apt install cmake # catch2
+```
